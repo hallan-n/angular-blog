@@ -1,0 +1,12 @@
+.content{
+    padding: 0 70px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.content-small-card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
