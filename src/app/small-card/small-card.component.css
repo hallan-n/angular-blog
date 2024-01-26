@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    gap: 15px;
+}
+.container-image{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+.container-text{
+    width: 300px;
+}
+img{
+    width: 100%; 
+    height: 100%;
+    object-fit: cover; 
+}

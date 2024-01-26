@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 70px;
+    gap: 30px;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+}
+.categorys{
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    gap: 25px 0px;
+}
+.item-a{
+    text-decoration: none;
+}
+.item-li{
+    border-radius: 5px;
+    padding: 10px;
+    display: inline;
+    transition: .4s;
+}
+.item-li:hover{
+    background-color: rgb(90, 90, 90);
+}
+hr{
+    border: solid 1px rgb(88, 88, 88);
+}
